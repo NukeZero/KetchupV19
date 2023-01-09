@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1d12ee89-88e0-45cb-b7c1-a6eb5bde64fe}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a0bb6a02-17ef-4994-9313-dc65846768c9}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{86c1c6a9-c15b-4b82-9899-367dcc63dc89}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Network Files">
+      <UniqueIdentifier>{bb8f8372-62fc-4f74-bde4-3fb7e75ae28e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network Files\Misc">
+      <UniqueIdentifier>{2d97bae2-7859-4f34-90fc-ce2fd7e2effa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network Files\Mcl">
+      <UniqueIdentifier>{e35db67c-50c1-4a07-a229-d0d34ba10113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network Files\Net">
+      <UniqueIdentifier>{e6f20ca4-41a8-4d74-b862-23970f1b27b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Files">
+      <UniqueIdentifier>{5f158b36-4f43-4862-a4c4-33cb1875479d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Files\DirectX Files">
+      <UniqueIdentifier>{cf843f74-34e6-4b94-8e38-4f2a297011af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Files\Common Files">
+      <UniqueIdentifier>{ba5b84ce-7bf8-489a-9b2d-f4c4647a0cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Files\Common Files\Script">
+      <UniqueIdentifier>{0facdd15-df1a-436d-ad05-a743f3500529}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DPCoreClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPDatabaseClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPLoginSrvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginProtect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\memtrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_network\misc\src\ar.cpp">
+      <Filter>Network Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_network\misc\src\dos2.cpp">
+      <Filter>Network Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Network\Misc\Src\heapmng.cpp">
+      <Filter>Network Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_network\misc\src\MyTrace.cpp">
+      <Filter>Network Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_network\net\src\buffer.cpp">
+      <Filter>Network Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_network\net\src\clientsock.cpp">
+      <Filter>Network Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_network\net\src\clientsocke.cpp">
+      <Filter>Network Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Network\Net\Src\crc.cpp">
+      <Filter>Network Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_network\net\src\dpmng.cpp">
+      <Filter>Network Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_network\net\src\dpsock.cpp">
+      <Filter>Network Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_network\net\src\serversock.cpp">
+      <Filter>Network Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_network\net\src\serversocke.cpp">
+      <Filter>Network Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_network\net\src\sock.cpp">
+      <Filter>Network Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_UnhandledException\exceptionhandler.cpp">
+      <Filter>Neuz Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_DirectX\dxutil.cpp">
+      <Filter>Neuz Files\DirectX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\debug.cpp">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\file.cpp">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\timer.cpp">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\vUtil.cpp">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\xutil.cpp">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\scanner.cpp">
+      <Filter>Neuz Files\Common Files\Script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LoginServer.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DPCoreClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DPDatabaseClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DPLoginSrvr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginProtect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\memtrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\CmnHdr.h">
+      <Filter>Network Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\ggsrv.h">
+      <Filter>Network Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\MsgHdr.h">
+      <Filter>Network Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\ar.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\dos2.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\heapmng.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\mempool.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\MEMPOOLER.H">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\memspy.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\MyMap.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\MyTrace.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\ObjMap.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\tickcount.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\mcl\include\cmcl.h">
+      <Filter>Network Files\Mcl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\mcl\include\cmclautolock.h">
+      <Filter>Network Files\Mcl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\mcl\include\cmclcritsec.h">
+      <Filter>Network Files\Mcl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\net\include\buffer.h">
+      <Filter>Network Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\net\include\clientsock.h">
+      <Filter>Network Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\net\include\clientsocke.h">
+      <Filter>Network Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\net\include\crc.h">
+      <Filter>Network Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\net\include\dpmng.h">
+      <Filter>Network Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\net\include\dpsock.h">
+      <Filter>Network Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\net\include\serversock.h">
+      <Filter>Network Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\net\include\serversocke.h">
+      <Filter>Network Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\net\include\sock.h">
+      <Filter>Network Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\DefineCommon.h">
+      <Filter>Neuz Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_UnhandledException\ExceptionHandler.h">
+      <Filter>Neuz Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_DirectX\dxutil.h">
+      <Filter>Neuz Files\DirectX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\data.h">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\debug.h">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\file.h">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\timer.h">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\vUtil.h">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\xutil.h">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\scanner.h">
+      <Filter>Neuz Files\Common Files\Script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LoginServer.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LoginServer.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\_UnhandledException\neuzd.lib">
+      <Filter>Neuz Files</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
