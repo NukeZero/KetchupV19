@@ -522,8 +522,8 @@ void CWndMessengerEx::OnDraw( C2DRender* p2DRender )
 		pszName = pszName.Left( nReduceCount );
 		pszName += "...";
 	}
-	p2DRender->TextOut( 59, 7, 1, 1, pszName, 0xFF606060 );
-	p2DRender->TextOut( 58, 6, 1, 1, pszName, 0xFFFFFFFF );
+	p2DRender->TextOut( 49, 7, 1, 1, pszName, 0xFF606060 );
+	p2DRender->TextOut( 48, 6, 1, 1, pszName, 0xFFFFFFFF );
 	p2DRender->TextOut( 48, 20, 1, 1, strState, 0xff36E052 );
 #else // __VER >= 19
 	LPCTSTR pszName = g_pPlayer->GetName( TRUE );
@@ -576,7 +576,7 @@ void CWndMessengerEx::OnDraw( C2DRender* p2DRender )
 			strServerName += "...";
 		}
 #if __VER >= 19
-		p2DRender->TextOut( 158, 12, 1, 1, strServerName, 0xffF6CC4D );
+		p2DRender->TextOut( 175, 12, 1, 1, strServerName, 0xffF6CC4D );
 #else // __VER >= 19
 		p2DRender->TextOut( 170, 13, 1, 1, strServerName, 0xff606060 );
 #endif // __VER >= 19
@@ -611,7 +611,7 @@ void CWndMessengerEx::OnDraw( C2DRender* p2DRender )
 						strServerName += "...";
 					}
 #if __VER >= 19
-					p2DRender->TextOut( 158, 24, 1, 1, strServerName, 0xffF6CC4D );
+					p2DRender->TextOut( 175, 24, 1, 1, strServerName, 0xffF6CC4D );
 #else // __VER >= 19
 					p2DRender->TextOut( 170, 27, 1, 1, strServerName, 0xff606060 );
 #endif // __VER >= 19
@@ -639,7 +639,7 @@ void CWndMessengerEx::OnDraw( C2DRender* p2DRender )
 		strServerName += "...";
 	}
 #if __VER >= 19
-	p2DRender->TextOut( 158, 12, 1, 1, strServerName, 0xffF6CC4D );
+	p2DRender->TextOut( 175, 12, 1, 1, strServerName, 0xffF6CC4D );
 #else // __VER >= 19
 	p2DRender->TextOut( 170, 13, 1, 1, strServerName, 0xff606060 );
 #endif // __VER >= 19
@@ -674,7 +674,7 @@ void CWndMessengerEx::OnDraw( C2DRender* p2DRender )
 					strServerName += "...";
 				}
 #if __VER >= 19
-				p2DRender->TextOut( 158, 24, 1, 1, strServerName, 0xffF6CC4D );
+				p2DRender->TextOut( 175, 24, 1, 1, strServerName, 0xffF6CC4D );
 #else // __VER >= 19
 				p2DRender->TextOut( 170, 27, 1, 1, strServerName, 0xff606060 );
 #endif // __VER >= 19
