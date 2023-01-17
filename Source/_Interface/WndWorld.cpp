@@ -2470,10 +2470,6 @@ void CWndWorld::RenderArrow()
 		vDest = m_vDestinationArrow;
 		vDest.y = g_pPlayer->GetPos().y;
 	}
-#ifdef __KIA_GOALDATA_FIX
-	if (nBlend == 0)
-		return;
-#endif
 #else // __IMPROVE_QUEST_INTERFACE
 #if __VER >= 13 // __QUEST_HELPER
 	int nBlend;
